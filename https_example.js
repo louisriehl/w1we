@@ -3,8 +3,8 @@ var https = require('https'); //gets the https module
 console.log("https module aquired!");
 
 var options = {
-  host: 'www.example.org',
-  path: '/'
+  host: 'stream-large-file.herokuapp.com',
+  path: '/give-me-stuff-now'
 };
 
 //called by https when request is made
